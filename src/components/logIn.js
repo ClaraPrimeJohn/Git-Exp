@@ -81,7 +81,7 @@ const LogIn = () => {
           <p><strong>Date:</strong> {announcement.date}</p>
         </div>
       ) : (
-        <p>Loading announcement...</p>
+        <p>Announcements Loading...</p>
       )}
     </div>
   );

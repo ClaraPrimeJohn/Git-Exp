@@ -175,8 +175,8 @@ const AdminDashboard = () => {
           <div>
             <p><strong>Active Users as of Today:</strong> {analyticsData.activeUsersToday}</p>
             <p><strong>New Sign-Ups (Last 7 Days):</strong> {analyticsData.newSignUps}</p>
-            <p><strong>Total Users:</strong> {userCount}</p>
-            <p><strong>Recent Activity:</strong> {analyticsData.recentActivity}</p>
+            <p><strong>Total number of Users:</strong> {userCount}</p>
+            <p><strong>Recent Activities:</strong> {analyticsData.recentActivity}</p>
           </div>
         ) : (
           <p>Loading analytics data...</p>
